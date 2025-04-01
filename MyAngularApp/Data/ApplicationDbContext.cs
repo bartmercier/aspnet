@@ -22,20 +22,17 @@ namespace MyAngularApp.Data
             modelBuilder.Entity<Project>()
                 .HasOne(p => p.User)
                 .WithMany(u => u.Projects)
-                .HasForeignKey(p => p.UserId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .HasForeignKey(p => p.UserId);
 
             modelBuilder.Entity<TaskItem>()
                 .HasOne(t => t.Project)
                 .WithMany(p => p.Tasks)
-                .HasForeignKey(t => t.ProjectId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .HasForeignKey(t => t.ProjectId);
 
             modelBuilder.Entity<TaskItem>()
                 .HasOne(t => t.AssignedTo)
                 .WithMany(u => u.AssignedTasks)
-                .HasForeignKey(t => t.AssignedToId)
-                .OnDelete(DeleteBehavior.SetNull);
+                .HasForeignKey(t => t.AssignedToId);
         }
     }
 } 
