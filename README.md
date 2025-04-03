@@ -58,7 +58,7 @@ A full-stack task management application built with ASP.NET Core, Angular, and M
    MYSQL_ROOT_PASSWORD=your_secure_root_password
    ```
 
-3. Start the MariaDB container:
+3. Start the mySQL container:
    ```bash
    cd MyAngularApp
    docker-compose up -d
