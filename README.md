@@ -60,7 +60,7 @@ A full-stack task management application built with ASP.NET Core, Angular, and M
 
 3. Start the mySQL container:
    ```bash
-   cd MyAngularApp
+   cd MyAngularApp7
    docker-compose up -d
    ```
 
