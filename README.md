@@ -17,7 +17,7 @@ A full-stack task management application built with ASP.NET Core, Angular, and M
 ## Tech Stack
 
 - **Backend**:
-  - ASP.NET Core 8.0
+  - ASP.NET Core 7.0
   - Entity Framework Core
   - MariaDB (via Docker)
   - RESTful API architecture
@@ -35,7 +35,7 @@ A full-stack task management application built with ASP.NET Core, Angular, and M
 
 ## Prerequisites
 
-- [.NET 8.0 SDK](https://dotnet.microsoft.com/download)
+- [.NET 7.0 SDK](https://dotnet.microsoft.com/download)
 - [Node.js](https://nodejs.org/) (v18 or later)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 - [Git](https://git-scm.com/)
